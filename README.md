@@ -1,6 +1,6 @@
 # Image Recovery
 
-The Image Recovery program extracts jpg images from deleted memory cards.
+The Image Recovery program extracts deleted JPG pictures from memory card images.
 
 ## How to use
 
