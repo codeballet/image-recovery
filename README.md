@@ -1,19 +1,24 @@
 # Image Recovery
 
 The Image Recovery program extracts jpg images from deleted memory cards.
-Written in C.
 
 ## How to use
 
-First, compile the code with a C compiler.
+The code is written in C, so first, you need to compile it into an executable file.
 
-Example (using 'make'):
+Example:
 `make recover`
 
-Use the resulting executable file with a card image:
+Use the resulting executable file with the path to a card image:
 
 ```
-./recover <image>
+recover <card-image>
+```
+
+Example:
+
+```
+./recover card.raw
 ```
 
 The jpg images will be stored in the current directory.
